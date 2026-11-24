@@ -1,0 +1,5 @@
+config_id,flash_bytes,nonstack_static_main_sram_bytes,stack_peak_bytes,peak_main_sram_bytes,measured_windows,p95_cycles,deadline_violation_rate
+W5_H2.5_robust_norm_small_INT8,21000,34712,5216,39928,1000,75162556.6,0.0
+W5_H2.5_robust_norm_quality_gate_small_INT8,21000,34712,5216,39928,1000,75164337.5,0.0
+W5_H2.5_robust_norm_tiny_INT8,10680,22744,5216,27960,1000,32057694.45,0.0
+W5_H2.5_robust_norm_medium_INT8,37768,46680,5216,51896,1000,134256893.4,0.0

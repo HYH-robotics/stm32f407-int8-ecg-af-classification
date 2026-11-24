@@ -1,0 +1,6 @@
+# Recorded versions (Python 3.13.14; CPU PyTorch). See README for installation.
+numpy==2.4.4
+scipy==1.18.0
+scikit-learn==1.9.0
+torch==2.13.0+cpu
+PyYAML==6.0.3

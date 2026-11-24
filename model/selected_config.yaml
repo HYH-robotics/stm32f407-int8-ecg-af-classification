@@ -1,0 +1,9 @@
+selected_config_id: W5_H2.5_robust_norm_small_INT8
+selected_window_s: 5.0
+selected_hop_s: 2.5
+selected_preprocessing: robust_norm
+selected_model: small
+selected_numeric: INT8
+threshold: 0.12155005643809358
+selection_rule: Among feasible candidates within 0.005 of highest development common-support
+  AP, minimize unlabeled pilot p95 cycles, then peak main SRAM, Flash, config_id.

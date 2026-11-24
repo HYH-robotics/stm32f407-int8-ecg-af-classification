@@ -1,0 +1,6 @@
+resource,original_C,CMSIS_NN_3_1_single,delta_bytes
+flash_Code_RO_RW_bytes,21000,22960,1960
+nonstack_static_SRAM_bytes,34712,36248,1536
+measured_stack_watermark_bytes,5216,5224,8
+stack_inclusive_SRAM_bytes,39928,41472,1544
+CMSIS_scratch_bytes,0,640,640
