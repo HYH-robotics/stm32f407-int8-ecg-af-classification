@@ -10,7 +10,7 @@ EXPECTED = {"train": (5774, 530), "development": (825, 76), "pilot": (825, 76), 
 
 def load_assignments(reference):
     with Path(reference).open(encoding="utf-8-sig", newline="") as f:
-        raw = {r[0].strip():r[1].strip() for r in csv.reader(f) if len(r)>=2 and r[1].strip() in {"A","N","O","~"}}
+        raw = {r[0].strip().replace('\\', '/').rsplit('/', 1)[-1]:r[1].strip() for r in csv.reader(f) if len(r)>=2 and r[1].strip() in {"A","N","O","~"}}
     with SPLIT.open(newline="",encoding="utf-8") as f: rows = list(csv.DictReader(f))
     assert len(rows)==8249 and len({r['record_id'] for r in rows})==8249
     assignments=[]
